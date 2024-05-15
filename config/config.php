@@ -1,6 +1,6 @@
 <?php
 $serverName = $_SERVER['SERVER_NAME'];
-$folder = 'foro-mvc-php/';
+$folder = 'foro-proyecto/';
 define('URL', 'http://'.$serverName .'/' . $folder);
 // Configuración de la base de datos
 define('DB_HOST', 'localhost');
