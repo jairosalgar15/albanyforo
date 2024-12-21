@@ -1,12 +1,12 @@
 <?php
 $serverName = $_SERVER['SERVER_NAME'];
-$folder = 'foro-proyecto/';
-define('URL', 'https://'.$serverName .'/' . $folder);
+$folder = 'albanyforo/';
+define('URL', 'http://'.$serverName .'/' . $folder);
 // Configuración de la base de datos
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'dbforo');
+define('DB_NAME', 'albanyforo');
 define('DB_CHARSET', 'utf8');
 
 /*

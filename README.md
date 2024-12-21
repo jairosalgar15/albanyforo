@@ -43,9 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Miguel Alfonso Gallardo Oliveros**
+👤 **Jairo Enrique Salgar Lafaurie**
 
-- GitHub: [@22miuel](https://github.com/22miuel)
+- GitHub: [@jairosalgar15](https://github.com/22miuel)
 
 
 ## 🤝 Contributing
