@@ -40,10 +40,10 @@ CREATE TABLE `hilo` (
 --
 
 INSERT INTO `hilo` (`id`, `titulo`, `contenido`, `fecha_creacion`, `usuario_id`) VALUES
-(9, 'El Futuro de la Inteligencia Artificial: Tendencias y Desarrollos', 'En este hilo, discutamos las últimas tendencias y desarrollos en el campo de la inteligencia artificial. Desde el aprendizaje profundo hasta la automatización, compartamos nuestras perspectivas sobre cómo la IA está moldeando nuestro mundo y qué podemos esperar en el futuro.', '2023-10-30 05:41:37', 3),
-(10, 'Reseñas de los Últimos Dispositivos Tecnológicos', '¿Has tenido la oportunidad de probar un dispositivo tecnológico emocionante recientemente? Comparte tus reseñas y experiencias sobre smartphones, laptops, wearables u otros gadgets. Ayuda a la comunidad a tomar decisiones informadas sobre sus próximas compras tecnológicas.', '2023-10-30 05:42:08', 3),
-(11, 'Ciberseguridad en un Mundo Conectado', 'Contenido: La seguridad en línea es crucial en la era digital. En este hilo, discutamos estrategias y mejores prácticas para mantener nuestros datos seguros, así como las amenazas cibernéticas más recientes. Comparte consejos para proteger tu información personal y empresarial en un mundo cada vez más conectado.', '2023-10-30 05:42:35', 3),
-(12, 'Problemas con la Actualización de Software en mi Dispositivo Móvi', 'Hola a todos, recientemente intenté actualizar el software en mi teléfono y me encontré con algunos problemas. La actualización no se instaló correctamente y ahora estoy experimentando problemas de rendimiento. ¿Alguien más ha tenido este problema o tiene alguna sugerencia para solucionarlo?', '2023-10-30 05:44:52', 5);
+(9, ' Proceso de creacion de auto', 'En este hilo, discutamos las últimas tendencias sobre como son los procesos manuales y automatizados de la fabricacion de automoviles.', '2025-01-25 05:41:37', 3),
+(10, 'Impacto del deporte en la economia de un pais', '¿Te has preguntado por que en los paises de primer mundo se hacen esfuerzos sobrehumanos y economicos para que el futbol sea un metodo de trabajo que genere ingresos tanto al equipo como al pais', '2025-01-25 05:42:08', 3),
+(11, 'El estres es la nueva enfermedad que daña a los seres humanos', 'Como todos sabemos el estres se ha convertido en la nueva enfermedad del ser humano debido a que gracvias a los nuevos avances tecnologicos y al desarrolo social las personas cada vez viven mas estresadas en su dia a dia. Como podemos prevenir esto?.', '2025-01-25 05:42:35', 3),
+(12, 'Es posible encontrar la felicidad plena', 'Hola a todos, recientemente intenté hacer una encuesta donde le preguntaba a las personas si realmente son felicies. Que crees que me respodieron la mayoria?', '2025-01-25 05:44:52', 5);
 
 -- --------------------------------------------------------
 
@@ -78,11 +78,11 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `usuario`, `correo`, `clave`, `fecha_registro`) VALUES
-(1, 'steve', 'steve@foro.com', '$2y$10$cndiUJiBOaRn2D4fErXS9eUXBLIY7GJh4xT9nNG33ximEFt0PAIFC', '2023-10-14 08:40:06'),
-(2, 'j', 'j@foro.com', '$2y$10$JIJaOosnZybCYZJsSu1m3.7hgbHr0F9wtv69XXBT8.NcBzxDwvYZq', '2023-10-28 16:41:50'),
-(3, 'pepe', 'pepe@g.com', '$2y$10$4UDvMr4y1AmmOhN.MCvAOeOCHU8.a2NlW8CIg1yZlCvqbNXcS0gUW', '2023-10-29 23:42:50'),
-(4, 'Montoya', 'montoya@g.com', '$2y$10$gvtnt.6dcvjCVBwSXoGqgex7v6ympeMLWE3rSB.7eEvvk4D4KWhcS', '2023-10-30 05:10:53'),
-(5, 'medrano', 'medrano@g.com', '$2y$10$UvSyMa.soXoXd7SuCVTFDOUy4POzOCQ9K4uBHfY6ImCKG4MOU0ZN6', '2023-10-30 05:44:24');
+(1, 'carlos', 'carlos@foro.com', '$2y$10$cndiUJiBOaRn2D4fErXS9eUXBLIY7GJh4xT9nNG33ximEFt0PAIFC', '2025-01-25 08:40:06'),
+(2, 'jose', 'jose@foro.com', '$2y$10$JIJaOosnZybCYZJsSu1m3.7hgbHr0F9wtv69XXBT8.NcBzxDwvYZq', '2025-01-25 16:41:50'),
+(3, 'pedro', 'pedro@g.com', '$2y$10$4UDvMr4y1AmmOhN.MCvAOeOCHU8.a2NlW8CIg1yZlCvqbNXcS0gUW', '2025-01-25 23:42:50'),
+(4, 'Maria', 'mmaria@g.com', '$2y$10$gvtnt.6dcvjCVBwSXoGqgex7v6ympeMLWE3rSB.7eEvvk4D4KWhcS', '2025-01-25 05:10:53'),
+(5, 'mercedes', 'merce@g.com', '$2y$10$UvSyMa.soXoXd7SuCVTFDOUy4POzOCQ9K4uBHfY6ImCKG4MOU0ZN6', '2025-01-25 05:44:24');
 
 --
 -- Índices para tablas volcadas
